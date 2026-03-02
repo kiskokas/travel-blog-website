@@ -3,8 +3,10 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import TravelGallery from "@/app/components/TravelGallery";
+// Importáljuk a pontos típust, amit a TravelGallery is használ
+import type { TravelAlbum } from "@/app/lib/getTravelAlbums";
 
-export default function TravelSectionClient({ albums }: { albums: any[] }) {
+export default function TravelSectionClient({ albums }: { albums: TravelAlbum[] }) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -34,7 +36,7 @@ export default function TravelSectionClient({ albums }: { albums: any[] }) {
           </p>
         </div>
 
-        {albums.length > 0 ? (
+        {albums && albums.length > 0 ? (
           <TravelGallery albums={albums} />
         ) : (
           <div className="text-center text-white/50 bg-white/5 border border-white/10 rounded-3xl p-16">

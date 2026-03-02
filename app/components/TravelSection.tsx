@@ -1,4 +1,3 @@
-import TravelGallery from "@/app/components/TravelGallery";
 import { getTravelAlbums } from "@/app/lib/getTravelAlbums";
 import TravelSectionClient from "./TravelSectionClient";
 

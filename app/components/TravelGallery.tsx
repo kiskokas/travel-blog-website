@@ -66,7 +66,7 @@ export default function TravelGallery({ albums }: { albums: TravelAlbum[] }) {
 
   return (
     <div className="w-full">
-      {/* Szűrők - Növelt felső margó (mt-12) a szellősebb hatásért */}
+      {/* Szűrők */}
       <div className="flex flex-wrap gap-2 justify-center mb-8">
         <button
           type="button"
@@ -122,11 +122,11 @@ export default function TravelGallery({ albums }: { albums: TravelAlbum[] }) {
                   fill
                   placeholder="blur"
                   blurDataURL={img.blurDataURL}
-                  className="object-cover transition-transform duration-500 group-hover:scale-[1.05]"
+                  className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-[1.05]"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
               </div>
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
             </button>
           ))}
         </motion.div>
@@ -156,7 +156,7 @@ export default function TravelGallery({ albums }: { albums: TravelAlbum[] }) {
                         fill
                         placeholder="blur"
                         blurDataURL={img.blurDataURL}
-                        className="object-cover transition-transform duration-500 group-hover:scale-[1.05]"
+                        className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-[1.05]"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       />
                     </div>

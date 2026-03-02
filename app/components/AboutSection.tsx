@@ -44,7 +44,7 @@ const AboutSection = () => {
         >
           {/* Felső bekezdés */}
           <p className="text-gray-400 leading-relaxed text-sm md:text-base">
-            As a photographer based in Louisville, KY, I travel not just for locations, but for feelings and unforgettable moments. Whether it's the rocky shores of Cyprus, the endless deserts of Oman, or the verdant slopes of Kentucky, my goal is always the same: to freeze time in a single frame.
+            As a photographer based in Louisville, KY, I travel not just for locations, but for feelings and unforgettable moments. Whether it is the rocky shores of Cyprus, the endless deserts of Oman, or the verdant slopes of Kentucky, my goal is always the same: to freeze time in a single frame.
           </p>
 
           {/* Középső nagy kép - Téglalap alakú, modern */}
@@ -64,7 +64,7 @@ const AboutSection = () => {
             </p>
             
             <p className="border-l border-white/20 pl-6 italic">
-              "I don't use the camera, but my eyes and my heart. The camera is just a tool to record what I already see."
+            &quot;I do not use the camera, but my eyes and my heart. The camera is just a tool to record what I already see.&quot;
             </p>
 
             <p>
