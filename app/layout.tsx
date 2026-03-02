@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Utazós napló",
+  title: "Travel blog",
   description: "Képek és jegyzetek az útjaimról.",
 };
 
