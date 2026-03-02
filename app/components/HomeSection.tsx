@@ -53,7 +53,7 @@ const HomeSection = () => {
             Krisztian Nagy
           </h1>
           <p className="text-lg md:text-xl mb-8 text-white/80 font-light tracking-[0.2em] uppercase">
-            Engineer • Photographer • Softwer Developer • Traveller
+            Engineer • Photographer • Software Developer • Traveller
           </p>
           <Link
             href="#travel"
