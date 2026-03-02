@@ -29,7 +29,7 @@ export default function TravelSectionClient({ albums }: { albums: TravelAlbum[] 
             Gallery
           </h2>
 
-          <div className="w-20 h-1 bg-white/20 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#ff9d00] mx-auto mb-6"></div>
 
           <p className="text-white/60 text-sm md:text-base max-w-2xl mx-auto uppercase tracking-[0.15em] mb-4">
             A PLACE WHERE I COLLECT MY FAVORITE PICTURES FROM MY TRAVELS.

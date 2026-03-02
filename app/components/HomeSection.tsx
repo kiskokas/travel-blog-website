@@ -52,6 +52,7 @@ const HomeSection = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-2 text-white drop-shadow-2xl tracking-tight uppercase">
             Krisztian Nagy
           </h1>
+          <div className="w-20 h-1 bg-[#ff9d00] mx-auto mb-6"></div>
           <p className="text-lg md:text-xl mb-8 text-white/80 font-light tracking-[0.2em] uppercase">
             Engineer • Photographer • Software Developer • Traveller
           </p>
