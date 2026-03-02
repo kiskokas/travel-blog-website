@@ -44,7 +44,7 @@ const AboutSection = () => {
         >
           {/* Felső bekezdés */}
           <p className="text-gray-400 leading-relaxed text-sm md:text-base">
-            As a photographer based in Louisville, KY, I travel not just for locations, but for feelings and unforgettable moments. Whether it is the rocky shores of Cyprus, the endless deserts of Oman, or the verdant slopes of Kentucky, my goal is always the same: to freeze time in a single frame.
+            As a photographer based in Louisville, KY, I travel not just for locations, but for feelings and unforgettable moments. Whether it is the rocky shores of Cyprus, the endless deserts of Oman, or the verdant slopes of Kentucky, my goal is always the same: to freeze time in a single frame. While my professional world is built on logic and precision, photography allows me to slow down and capture moments that cannot be measured — only felt.
           </p>
 
           {/* Középső nagy kép - Téglalap alakú, modern */}
@@ -64,7 +64,7 @@ const AboutSection = () => {
             </p>
             
             <p className="border-l border-white/20 pl-6 italic">
-            &quot;I do not use the camera, but my eyes and my heart. The camera is just a tool to record what I already see.&quot;
+            &quot;This site is a visual journal of my travels — a collection of moments seen beyond code and screens.&quot;
             </p>
 
             <p>
