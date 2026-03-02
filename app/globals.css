@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  object-fit: contain;
+  mix-blend-mode: multiply; /* Or try 'screen' */
+}
+/* Lightbox thumbnails – alsó "filmszalag" sáv */
+.yarl__thumbnails_container {
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* alap thumbnail kicsit sötétebb */
+.yarl__thumbnails_thumbnail {
+  opacity: 0.85;
+  transition: opacity 160ms ease, filter 160ms ease, transform 160ms ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* az éppen aktív thumbnail legyen sötétebb */
+.yarl__thumbnails_thumbnail_active {
+  opacity: 0.45;
+  filter: brightness(0.7);
+}
+
+.yarl__thumbnails_thumbnail:hover {
+  opacity: 1;
+  filter: brightness(1);
+  transform: translateY(-1px);
+}

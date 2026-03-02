@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* CSS styles for the menu */
+.menu {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 50; /* Ensure this is higher than other sections */
+  }
+
+  /* Parallax effect for the home section */
+.hero {
+    background-attachment: fixed; /* Parallax effect */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 1;
+  }
